@@ -13,22 +13,26 @@ namespace Expense_Tracker_API.Controllers
         ResponseMessageModel objresponseMessageModel = new ResponseMessageModel();
 
         [HttpPost("register")]
-        public ActionResult <ResponseMessageModel> CreateUser (UserRegisterModel Usermodel,out int Out,out string message)
+        public ActionResult <ResponseMessageModel> CreateUser (UserRegisterModel Usermodel)
         {
+            int Out = -1;
+            string message = "";
             try
             {
+                
                 UserService objuserService = new UserService();
 
                 if (Usermodel != null)
                 {
-                    objresponseMessageModel = objuserService.Createuser(Usermodel, out Out, out message);
+                    objresponseMessageModel = objuserService.Createuser(Usermodel, out  Out, out  message);
 
                 }
                 else
                 {
                     Out = -1;
-                    message = "Model cannot be none";
+                    message = "model Cannot be Null";
                 }
+
                 if (Out == 1)
                 {
                     return Ok(objresponseMessageModel);
