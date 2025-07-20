@@ -1,0 +1,13 @@
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\bin\Debug\net7.0\Domain.dll
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.dll
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Expense-Tracker\Expense_API\Expense-Tracker-API\Domain\obj\Debug\net7.0\ref\Domain.dll

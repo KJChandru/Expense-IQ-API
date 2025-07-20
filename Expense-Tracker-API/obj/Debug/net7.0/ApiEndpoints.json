@@ -1,15 +1,21 @@
 [
   {
-    "ContainingType": "Expense_Tracker_API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "Expense_Tracker_API.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "user/register",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "Usermodel",
+        "Type": "Domain.User.UserRegisterModel",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Expense_Tracker_API.WeatherForecast, Expense-Tracker-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Domain.ResponseMessageModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +23,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]
